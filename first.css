@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color: rgb(201, 243, 243);
+    font-family:monospace;
+    font-size: 20px;
+}
+.nav-bar{
+    background-color: white;
+    overflow: hidden;
+    
+}
+.nav-bar a{
+    float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+.nav-bar img{
+  height: 6%;
+  width: 7%;
+}
+.nav-bar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.container{
+    margin-top: 10%;
+   margin-right: 35%;
+   margin-left: 10%;
+}
+.container img{
+  height: 10%;
+  width: 8%;
+  border-radius: 40px;
+}
+.logo img{
+  height: 8%;
+  width: 8%;
+  padding: 20px;
+  /* border-radius: 50px; */
+  
+}
+p{
+   word-spacing: 3px;
+   line-height: 30px;
+   margin-right: 45%;
+   font-size: 20px;
+}
+.logo{
+  margin-top: 5%;
+  margin-left: 20px;
+  padding: 30px;
+}
+button{
+  text-align: center;
+  height: 40px;
+  margin-left: 30px;
+  width: 100px;
+  background-color: rgb(9, 150, 9);
+  
+}
+button a{
+  color: white;
+  text-decoration: none;
+  
+}
+/*          skills           */
+
+.skill img{
+  height: 10%;
+  width: 10%;
+  border-radius: 50%;
+}
+.skill{
+  margin-top: 10%;
+}
+.container-skills{
+  margin-top: 10%;
+  /* float: right; */
+  width: 33.33%;
+  padding: 5px;
+  margin-left: 10%;
+}
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+.html {width: 90%; background-color: #df510a;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f4d436;}
+.java {width: 60%; background-color: #808080;}
+
+.bar{
+  width: 100%;
+background-color: #ddd;
+}
+
+/*    projects       */
+.container-project{
+  margin-top: 10%;
+  margin-left:10%;
+  line-height: 20px;
+}
+.project{
+  margin-top: 4%;
+  border: none;
+  height:120px;
+  overflow: hidden;
+}
+img{
+  height: 4%;
+  width: 4%;
+}
+h3{
+  color: rgb(8, 108, 125);
+}
+
+/* about-me */
+
+.container-about{
+  margin-top: 10%;
+  margin-left:10%;
+  line-height: 20px;
+}
+p{
+  word-spacing: 3px;
+  line-height: 30px;
+  font-size: 20px;
+}
+.info img{
+  height: 2%;
+  width: 2%;
+  margin-top: 4%;
+  margin-left: 5%;
+}
+/* /* .logo{
+  margin-top: 1%;
+  margin-left: 80px;
+  padding: 30px;
+} */
+.container-about img{
+  height: 6%;
+  width: 8%;
+  border-radius: 50px;
+  
+}
